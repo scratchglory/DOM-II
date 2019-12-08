@@ -113,3 +113,6 @@ contentDestinP.addEventListener("mouseenter", event => {
 introH1[0].addEventListener("load", event => {
   introH1[0].innerHTML = "Fun Bus says 'Hello!'";
 });
+
+// stretch
+gsap.to("h1", { duration: 2, x: 200, ease: "back" });
